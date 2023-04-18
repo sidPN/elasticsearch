@@ -20,7 +20,8 @@ contribute to the score.
 in <<query-filter-context,filter context>>, meaning that scoring is ignored
 and clauses are considered for caching.
 
-|`should` |The clause (query) should appear in the matching document.
+|`should` |The clause (query) should appear in the matching document and will
+contribute to the score.
 
 |`must_not` |The clause (query) must not appear in the matching
 documents. Clauses are executed in <<query-filter-context,filter context>> meaning
